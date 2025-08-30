@@ -1,0 +1,64 @@
+/*CSS Externo (styles.css)
+Aplicar no styles.css:
+Cores:
+Fundo do main com hex.
+Texto padr˜ao por nome (ex.: black ou slategray).
+Barra do nav com rgb().
+
+
+Seletores obrigat´orios:
+1. Elemento: h1, h2, p, figcaption, table, th, td.
+2. Classe: .resumo com cor e it´alico. OKK
+3. ID: estilo para #links (ex.: borda esquerda e padding).
+4. Descendente: nav ul li a (sem sublinhado; espa¸camento
+lateral).
+
+
+5. Atributo:
+a[href$=".pdf"] com ´ıcone/texto diferenciado.
+img[alt] com borda sutil
+.
+6. Pseudoclasses:
+:hover e :active nos links do menu.
+:last-child no ´ultimo item de listas.
+tr:nth-child(even) para “zebra” na tabela.
+input:focus(sehouvercampodeemailnorodap´eestilizar*/
+
+
+/* LINKS*/
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+
+td:hover {
+   background-color: black;
+   color: white;
+
+}
+#links {
+    padding: 3%;
+
+}
+
+.tr {
+    background-color: blue;
+
+}
+
+.resumo {
+   background-color: blueviolet;
+   font-style: italic;
+}
+
+
+
+
+
+
+
+
+

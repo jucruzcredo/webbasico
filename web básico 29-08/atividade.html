@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--Crie uma p´agina HTML com:
+1. Cabe¸calho (header) com h1 (t´ıtulo) e p (descri¸c˜ao de 2–3
+frases). OKKKK
+2. Navega¸c˜ao (nav): lista n˜ao ordenada (ul > li > a) com
+4 links internos: #sobre, #galeria, #agenda, #links. OOOKKK
+3. Se¸c˜ao Sobre (section #sobre): 2 par´agrafos; aplique uma
+classe .resumo no segundo par´agrafo.
+4. Se¸c˜ao Galeria (section #galeria): 3 imagens (m´ax.
+200px), cada uma com figcaption curto. OKKKK
+5. Se¸c˜ao Agenda (section #agenda): tabela com thead e 4
+colunas: Dia, Hor´ario, Atividade, Status (use 6 linhas,
+Seg–S´ab).
+6. Se¸c˜ao Links (section #links): lista com 3 links externos;
+1 deles deve apontar para um arquivo “.pdf”.
+7. Rodap´e (footer): e-mail de contato.-->
+
+
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Avaliativa 01</title>
+    <link rel="stylesheet"  href="css/estilo.css">
+
+</head>
+<body>
+    <header>Boa prova!!</header>
+
+<!--Título-->
+<h1> Título </h1>
+<h2> Subtítulo</h2>
+
+<!--DESCRIÇÃO-->
+<p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore officia nam deserunt a at voluptas aperiam repellendus distinctio unde laudantium veritatis vel voluptate eos, quam consequatur, cum provident consectetur obcaecati.
+    Officiis reprehenderit laboriosam autem minima maiores quo magnam corporis fugiat quae sed voluptas recusandae cupiditate culpa, unde accusamus blanditiis sapiente minus officia ipsam quis architecto exercitationem sunt hic quas. Vero!
+    Velit nisi omnis eos porro, pariatur adipisci. Reiciendis distinctio amet sunt quos pariatur magni aspernatur rem, dolores, perferendis saepe fuga et omnis autem accusamus ea. Dolores debitis tempore fugit nobis.
+</p>
+
+<div> <!--Lista de navegação pelo site-->
+    <nav id="lista">
+        <ul> 
+            <li> <a href="sobre"> Sobre </a> </li>
+            <li> <a href="galeria"> Galeria </a> </li>
+            <li> <a href="agenda"> Agenda </a> </li>
+            <li> <a href="links"> Links </a> </li>
+        </ul>
+    </nav>
+</div>
+ 
+<section>  <!--SOBRE-->
+    <h2 id="sobre">Sobre</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae odit ea ad et quas ipsa deleniti quam optio! Numquam, molestiae voluptates. Sit, fugit ullam? Cum fuga laudantium inventore assumenda?
+           Quas assumenda fugiat, porro modi quam vel veniam officia. Quae illum minus commodi aliquam illo quas accusamus magni. Aut quo natus maxime quasi veritatis sint saepe debitis, architecto id animi?
+        </p>
+
+        <p class="ressumo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae odit ea ad et quas ipsa deleniti quam optio! Numquam, molestiae voluptates. Sit, fugit ullam? Cum fuga laudantium inventore assumenda?
+            Quas assumenda fugiat, porro modi quam vel veniam officia. Quae illum minus commodi aliquam illo quas accusamus magni. Aut quo natus maxime quasi veritatis sint saepe debitis, architecto id animi?
+         </p>
+
+</section>
+
+<section> <!--FOTOS-->
+    <h2 id="galeria">Galeria</h2>
+    
+    <img 
+      src="claroescuro.jpg" 
+      alt="homem de preto com uma palavra escrito claro">
+
+    <img 
+       src="magianegra.jpg" 
+       alt="homens negros fazendo magia"> 
+
+    <img src="depende.jpg" alt="imagem de um jogador com os braços no lugar da perna, e somente cabeça dele">
+ 
+</section>
+
+<section><!--AGENDA-->
+    <h2 id="agenda">Agenda</h2>
+          <div> <!--TABELA-->
+            <table>
+                 <thead> 
+                     <th>Dia</th> <th>Horário</th> <th>Atividade</th> <th>Status</th> 
+                </thead>
+
+                <tbody>
+                    <tr> <td>1</td> <td>Segunda-feira</td> </tr>
+                    <tr> <td>2</td> <td>Terça-feira</td> </tr>
+                    <tr> <td>3</td> <td>Quarta-feira</td> </tr>
+                    <tr> <td>4</td> <td>Quinta-feira</td> </tr>
+                    <tr> <td>5</td> <td>Sexta-feira</td> </tr>
+                    <tr> <td>6</td> <td>Sábado</td> </tr>
+                </tbody>
+            </table>
+
+          </div>
+
+
+</section>
+
+<section> <!--LINKS EXTERNOS-->
+
+    <h2 id="links"> Links úteis</h2><!--Título-->
+
+    <div> 
+        <nav>
+            <ul> 
+                <li> <a href="lista_1_v3.pdf"> PDF da tividade </a> </li>
+                <li> <a href="lista.html"> Lista de exercícios</a> </li>
+                <li> <a href="Index.html"> Aaula 15/08 </a> </li>
+            </ul>
+        </nav>
+    </div>
+
+</section>
+
+<footer><!--RODAPÉ-->
+       <h2>Contato</h2>
+       <p> <a href="orogenise@gmail.com" target="_blank"> orogenise@gmail.com</a> </p>
+
+</footer>
+
+
+
+    
+</body>
+</html>
