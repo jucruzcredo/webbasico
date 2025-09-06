@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family:"Montserrat";
+}
+.cabecalho {
+    display: flex;
+    margin-top: 2rem;
+    padding: 0.6rem;
+    flex-direction:row;
+    background-color: black;
+    
+}
+#nome {
+    font-size:3rem;
+    text-align: center;
+}
+.content {
+    padding: auto;
+}
+.photo {
+    width: 180px;
+    border-radius: 2rem;
+}
+.nome-sub {
+    margin: 0rem 2rem 0rem 2rem;
+    width: 70%;
+    color:rgb(234, 120, 139);
+}
+
+.sobre{
+    display: flex;
+    padding: 2rem;
+}
+.menu {
+    width: 30%;
+}
+.content {
+    width: 70%;
+}
