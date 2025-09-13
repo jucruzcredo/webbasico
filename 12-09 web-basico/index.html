@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Web</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--bootstrapicons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <!--FONTES  Bruno Ace-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bruno+Ace&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+       <!--FONTES-->
+</head>
+
+<body>
+    <div class="cabecalho">
+        <header class="texto">
+          <h1>Formulários Web</h1>
+               <p>Ícone do github <i class="bi bi-github"></i></p>
+                <a href="https://github.com/jucruzcredo" target="_blank"> <i class="bi bi-github"></i> </a>
+       </header>    
+    </div>
+
+    <div class="formulario">
+        <form action="#" method="post">  
+          <!--NOME--> 
+          <div>      
+              <label for="nome">Nome*</label>
+              <input type="text" name="nome" id="nome"required
+              placeholder="Digite seu nome completo">
+          </div>
+          <!--EMAIL-->
+
+          <div>
+              <label for="mail">E-mail</label>
+              <input type="email" name="mail" id="mail"
+              placeholder="Digite seu melhor e-mail">
+          </div> 
+
+        <!--SEMESTRE-->
+          <div>
+              <label for="semestre">Semestre</label>
+              <input type="number" name="semestre" id="semestre"
+              min="1" max="8">
+          </div>
+
+          
+          <!--PLACA-->
+          <div>
+              <label for="placa">Placa</label>
+              <input type="text" name="placa" id="placa"
+               placeholder="AAA0A00 ou AAA0000"
+               pattern="[0-9]{1}[A-Z]{1}[0-9] | [A-Z] {3}[0-9]{4}">
+          </div>
+
+          <!--SENHA-->
+          <div>
+              <lalbel for="senha">Senha</lalbel>
+              <input type="text" name="senha" id="senha"
+              placeholder="4 a 8 dígitos"
+              minlength="4" maxlength="8" required>
+          </div>
+         <!--INATIVO-->
+          <div>
+              <label for="inativo">Campo Inativo</label>
+              <input type="text" name="inativo" id="inativo" disabled>
+          </div>
+          
+          <!--ENVIAR-->
+           <div>
+              <input type="submit" value="Enviar">
+           </div>
+
+       </form>
+    </div>
+
+</body>
+</html>
