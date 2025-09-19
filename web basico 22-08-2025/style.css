@@ -1,0 +1,77 @@
+
+/* Fontes*/
+
+
+
+/*Seletor de ID: #
+Seletor de Class: .
+tagname - elemento
+*/
+
+
+
+ul { 
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     background-color: whitesmoke;
+}
+ul li {
+     display: inline;
+     margin-right: 0 60px;
+}
+body {
+
+     background-color: rgb(20, 20, 20);
+     font-family: "Cal Sans", sans-serif;
+}
+
+
+h1 {
+     height: 20vh;
+     margin: 0;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     color: rgb(214, 214, 214);
+     font-size: 50px;
+} 
+
+
+p{
+     color: white;
+     font-size: 26px;
+}
+
+/* Seletor de ID*/
+#teste {
+     border: 2px;
+     border-style: solid;
+     border-radius: 10px;
+     margin:0 500px;
+     
+     
+}
+
+/*Seletor de Classe*/
+.bonitinho {
+   background-color: rgb(180, 180, 180);
+   color: black;
+
+}
+
+li{
+    
+    
+  color: black;
+
+}
+
+/* Teste*/
+li.active {
+     color: black;
+}
+.space {
+     padding: 1rem;
+}
+

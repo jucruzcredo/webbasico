@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando o CSS</title> 
+    <link rel="stylesheet" href="style.css">  <!--CSS externo-->
+    
+<!--Fonte: Cal Sans-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Cal+Sans&display=swap" rel="stylesheet">
+<!--Fontes-->
+
+
+</head>
+   
+
+
+<body> 
+
+<!--Lista de navegação/////Cabeçalho-->
+    <div>
+     <nav>
+         <ul>
+               <li class="active"><a href="#teste">Teste</a></li>
+               <li><a href="https://www.instagram.com" target="_blank">Instagram </a></li>
+               <li><a href="rodape">Fim da página </a></li>
+         </ul>
+   </nav>
+
+    <!--Título-->
+     <h1 style="text-align: center;"> Não sobra nada pros betinhas</h1>
+     
+
+    <!--Texto-->
+    <p id="teste" style="text-align: center;"> aura + ego + discplina</p>
+
+      <p class="bonitinho space" style="text-align: center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Numquam dolorum eum fugit rerum maxime voluptatem reprehenderit facilis nobis, 
+        unde quaerat nam. 
+        Distinctio tempore, fugiat temporibus deserunt aut ea corrupti mollitia?
+
+      </p>
+
+      <p id="rodape"> Fim da página</p>
+
+
+</div>
+</body>
+</html>
